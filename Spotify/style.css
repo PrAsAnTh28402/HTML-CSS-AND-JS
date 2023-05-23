@@ -1,0 +1,83 @@
+body{
+    background-color: #040404;
+    color: grey;
+    font-family: arial;
+    margin: unset;
+    padding-bottom: 2%;
+}
+.banner{
+    background-image: url(1.jpg) ;
+    height: 18em;
+    background-size: cover;
+    background-position: center;
+}
+.Left-img{
+    margin-left: 3em;
+    margin-top: 3em;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 2em;
+}
+.left-banner{
+    float: left;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+.heading{
+    display: inline-block;
+}
+.main-section{
+    margin: auto;
+    width: 50%;
+}
+.table{
+    text-align: left;
+    margin-right: 50px;
+}
+.th{
+    padding: 2 em;
+    padding-left: 1.2 em;
+    font-size: large;
+}
+.songNumber{
+    width:20px;
+    border-bottom: 2px solid grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: large;
+}
+.songTitle{
+    width:550px;
+    border-bottom: 2px solid grey;
+    padding-top: 50px;
+    font-size: large;
+    padding-bottom: 50px;
+}
+.songArtist{
+    width:250px;
+    border-bottom: 2px solid grey;
+    padding-top: 50px;
+    font-size: large;
+    padding-bottom: 50px;
+}
+.songDuration{
+    width:150px;
+    border-bottom: 2px solid grey;
+    padding-top: 50px;
+    font-size: large;
+    padding-bottom: 50px;
+}
+td{
+    padding: 25px;
+}
+tr:hover{
+    color: aliceblue;
+}
+.controls img{
+    width: 3.5em;
+    margin-top: 1em;
+}
+.highlight{
+    color:antiquewhite;
+}

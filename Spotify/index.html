@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Music Player</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="left-banner">
+            <img class ="Left-img" src="Music_Banner.jpg" alt="Aesthetic Background">
+            <div class="heading">
+                <h1> Enjoy the World of Music</h1>
+                <p>Keep Focussed and Enjoy the Serenity</p>
+            </div>
+        </div> <!--End of Left Banner-->
+    </div><!--End of Banner-->
+    
+    <div class="main-section">
+        <div class="controls" onclick="playaudio()" id="play-pause"> <img class="play-button"src="play-button.png" alt="play_img"></div>
+        <audio id="song"></audio>
+
+
+        <table>
+            <thead>
+                <th class="songNumber">#</th>
+                <th class="songTitle">Title of the song</th>
+                <th class="songArtist">Artist</th>
+                <th class="songDuration">Duration</th>
+            </thead>
+            <tr id="song1" onclick="playAll(1)">
+                <td>1</td>
+                <td>Un Vizhigalil</td>
+                <td> Anirudh Ravichandar</td>
+                <td>03:40</td>
+            </tr>
+            <tr id="song2" onclick="playAll(2)">
+                <td>2</td>
+                <td> Avalukena</td>
+                <td> Anirudh Ravichandar</td>
+                <td>05:30</td>
+            </tr>
+            <tr id="song3" onclick="playAll(3)">
+                <td>3</td>
+                <td>Kanave Kanave</td>
+                <td> Anirudh Ravichandar</td>
+                <td>04:30</td>
+            </tr>
+            <tr id="song4" onclick="playAll(4)">
+                <td>4</td>
+                <td> Enakenna Yaarum Illaye (From "Aakko")</td>
+                <td> Anirudh Ravichandar</td>
+                <td>04:20</td>
+            </tr>
+            <tr id="song5" onclick="playAll(5)">
+                <td>5</td>
+                <td> Bae</td>
+                <td> Anirudh Ravichandar</td>
+                <td>03:50</td>
+            </tr>
+            <tr id="song6" onclick="playAll(6)">
+                <td>6</td>
+                <td> Naan Pizhai</td>
+                <td> Anirudh Ravichandar</td>
+                <td>00:00</td>
+            </tr>
+            <tr id="song7" onclick="playAll(7)">
+                <td>7</td>
+                <td> Osaka Osaka</td>
+                <td> Anirudh Ravichandar</td>
+                <td>03:00</td>
+            </tr>
+            <tr id="song8" onclick="playAll(8)">
+                <td>8</td>
+                <td>Porkanda Singam (EDM Version) [From "Vikram"]</td>
+                <td> Anirudh Ravichandar</td>
+                <td>03:00</td>
+            </tr>
+            <tr id="song9" onclick="playAll(9)">
+                <td>9</td>
+                <td> Master the Blaster (From "Master")</td>
+                <td> Anirudh Ravichandar</td>
+                <td>04:00</td>
+            </tr>
+            <tr id="song10" onclick="playAll(10)">
+                <td>10</td>
+                <td>Sirikadhey(Remo)</td>
+                <td> Anirudh Ravichandar</td>
+                <td>01:00</td>
+            </tr>
+        </table><!--End of song and Artist List-->
+    </div><!--End of main section-->
+
+    <script src="script.js"></script>
+</body>
+</html>
